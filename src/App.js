@@ -38,33 +38,43 @@ class Intro extends Component {
       <div className="intro">
         <div className="page-header">
           <div className="main-title">Rahul Shah</div>
-          <div className="main-subtitle">Computer science education + Design and product management experience</div>
+          <div className="main-subtitle">rahulshah.eth • @rahulushah</div>
         </div>
         <div className="page-content">
-          <div className="project-option">
-            <Link to={'/p/stash'}><img className="homepage-image" src={require('./assets/images/stash/stash-main.png')}/></Link>
-            <div className="project-name white">Stash.ai</div>
+          <div className="content-section">
+            <div className="content-header">Overview</div>
+            <div className="content-text">Group product manager at Autodesk. Creating and contributing to web3 projects.</div>
           </div>
-          <div className="project-option">
-             <Link to={'/p/PianoPass'}><img className="homepage-image" src={require('./assets/images/pianopass/pianopass-main.png')}/></Link> 
-             <div className="project-name black">PianoPass</div>
+          <div className="content-section">
+            <div className="content-header">Projects</div>
+            <div className="project-option">
+             <div onClick={() => {window.open('https://twitter.com/scottie_ai', '_blank')}} className="project-name white">🔔 Scottie.ai → Automated alerts for crypto assets (Creator)</div>
+            </div>
+            <div className="project-option">
+              <div onClick={() => {window.open('https://twitter.com/meta_badge', '_blank')}} className="project-name white">🛡 Metabadge → Protocol for non-transferrable tokens (Creator)</div>
+            </div>
+            <div className="project-option">
+              <Link to={'/p/stash'}><div className="project-name white">🦺 Autodesk → Real time collaboration for construction (Group Product Manager)</div></Link>
+            </div>
+            <div className="project-option">
+              <div onClick={() => {window.open('https://twitter.com/EthereumPhone', '_blank')}} className="project-name white">📱 Ethereum Phone → An ethereum native operating system (Core Contributor)</div>
+            </div>
+            <div className="project-option">
+              <Link to={'/p/stash'}><div className="project-name white">🌳 Treebot → A smart contract that plants trees IRL (Core Contributor)</div></Link>
+            </div>
+            <div className="project-option">
+              <Link to={'/p/stash'}><div className="project-name white">🧊 Plangrid → Mobile 3D model viewer (Senior Product Manager)</div></Link>
+            </div>
+            <div className="project-option">
+              <Link to={'/p/stash'}><div className="project-name white">💪 Powermove → AI powered home workouts (Creator)</div></Link>
+            </div>
+            <div className="project-option">
+              <Link to={'/p/stash'}><div className="project-name white">🧠 Stash.ai → AI powered bookmarks (Co-founder)</div></Link>
+            </div>
+            <div className="project-option">
+              <Link to={'/p/pianopass'}><div className="project-name white">🎹 PianoPass → iOS Password Manager (Co-founder)</div></Link>
+            </div>
           </div>
-          <div className="project-option">
-             <Link to={'/p/Speare'}><img className="homepage-image" src={require('./assets/images/speare/speare-main.png')}/></Link>
-             <div className="project-name black">Speare Analytics</div>
-          </div>
-          <div className="project-option">
-             <Link to={'/p/LogIssue'}><img className="homepage-image" src={require('./assets/images/logissue/logissue-main.png')}/></Link>
-             <div className="project-name black">Log Issue</div>
-          </div>  
-          <div className="project-option">
-             <Link to={'/p/MechanizedAbstraction'}><img className="homepage-image" src={require('./assets/images/mechanizedabstractions/mechanizedabstractions-main.png')}/></Link>
-             <div className="project-name black two-line">Mechanized<br />Abstraction</div>
-          </div>
-           <div className="project-option">
-             <Link to={'/p/Woodworking'}><img className="homepage-image" src={require('./assets/images/woodworking/woodworking-main.png')}/></Link>
-             <div className="project-name black">Woodworking</div>
-          </div>          
         </div>
       </div>
     )

@@ -36,16 +36,24 @@
   font-family: DinPro;
   font-weight: 900;
   src: url("./assets/fonts/DINProBlack.otf"); }
+	@font-face {
+		font-family: Inter;
+		src: url("./assets/fonts/Inter.ttf"); }
 
 
 body {
-	font-family: DinPro !important; 
+	font-family: Inter !important; 
 }
 
 .page {
 	text-align: left;
 }
-	
+
+.intro {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
 .App-logo {
 	animation: App-logo-spin infinite 20s linear;
 	height: 80px;
@@ -75,20 +83,16 @@ body {
 
 .project-name {
 	position: relative;
-	margin-top: -60px;
-	padding-bottom: 30px;
-	margin-left: 30px;
-	font-weight: 700;
-	font-size: 25px;
-	color: rgba(255,255,255,.5);
+	padding-bottom: 15px;
+	padding-top: 5px;
+	margin-left: 0px;
+	font-weight: 500;
+	font-size: 16px;
+	color: rgba(52, 52, 52, 0.5);
 }
 
-.white {
-	color: rgba(255,255,255,.5);
-}
-
-.black {
-	color: rgba(0,0,0,.25);
+.project-name:hover {
+	color:rgb(201, 146, 146)
 }
 
 .two-line {
@@ -97,22 +101,10 @@ body {
 }
 
 @media (max-width: 1200px) {
-	.project-name {
-		font-size: 20px;
-		margin-top: -50px;
-		padding-bottom: 25px;
-	}
-
-	.two-line {
-		font-size: 15px;
-		padding-bottom: 30px;
-		margin-top: -70px;
-	}
-}
-
-@media (max-width: 700px) {
-	.project-name {
-		display: none;
+	.intro {
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }
 
@@ -137,6 +129,7 @@ a:active {
 /* HOMEPAGE */
 
 .homepage-image {
+	width: 600px;
 	max-width: 100%;
 	padding-bottom: 0px !important;
 	margin-bottom: 0px !important;
@@ -151,7 +144,23 @@ a:active {
 }
 
 .main-subtitle {
+	font-size: 16px;
 	color: grey;
+	margin-top: 5px;
+}
+
+.content-section  {
+	margin-bottom: 30px;
+}
+
+.content-header {
+	margin-bottom: 10px;
+}
+
+.content-text {
+	font-size: 16px;
+	color: grey;
+	margin-bottom: 30px;
 }
 
 .back-button {
