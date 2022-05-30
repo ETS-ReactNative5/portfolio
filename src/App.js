@@ -48,31 +48,31 @@ class Intro extends Component {
           <div className="content-section">
             <div className="content-header">Projects</div>
             <div className="project-option">
-             <div onClick={() => {window.open('https://twitter.com/scottie_ai', '_blank')}} className="project-name white">🔔 Scottie.ai → Automated alerts for crypto assets (Creator)</div>
+             <div onClick={() => {window.open('https://twitter.com/scottie_ai', '_blank')}} className="project-name white">→ Scottie.ai - Automated alerts for crypto assets (Creator)</div>
             </div>
             <div className="project-option">
-              <div onClick={() => {window.open('https://twitter.com/meta_badge', '_blank')}} className="project-name white">🛡 Metabadge → Protocol for non-transferrable tokens (Creator)</div>
+              <div onClick={() => {window.open('https://twitter.com/meta_badge', '_blank')}} className="project-name white">→ Metabadge - Protocol for non-transferrable tokens (Creator)</div>
             </div>
             <div className="project-option">
-              <Link to={'/p/stash'}><div className="project-name white">🦺 Autodesk → Real time collaboration for construction (Group Product Manager)</div></Link>
+              <Link to={'/p/stash'}><div className="project-name white">→ Autodesk - Real time collaboration for construction (Group Product Manager)</div></Link>
             </div>
             <div className="project-option">
-              <div onClick={() => {window.open('https://twitter.com/EthereumPhone', '_blank')}} className="project-name white">📱 Ethereum Phone → An ethereum native operating system (Core Contributor)</div>
+              <div onClick={() => {window.open('https://twitter.com/EthereumPhone', '_blank')}} className="project-name white">→ Ethereum Phone - An ethereum native operating system (Core Contributor)</div>
             </div>
             <div className="project-option">
-              <Link to={'/p/stash'}><div className="project-name white">🌳 Treebot → A smart contract that plants trees IRL (Core Contributor)</div></Link>
+              <Link to={'/p/stash'}><div className="project-name white">→ Treebot - A smart contract that plants trees IRL (Core Contributor)</div></Link>
             </div>
             <div className="project-option">
-              <Link to={'/p/stash'}><div className="project-name white">🧊 Plangrid → Mobile 3D model viewer (Senior Product Manager)</div></Link>
+              <Link to={'/p/stash'}><div className="project-name white">→ Plangrid - 3D model viewer on an iPad (Senior Product Manager)</div></Link>
             </div>
             <div className="project-option">
-              <Link to={'/p/stash'}><div className="project-name white">💪 Powermove → AI powered home workouts (Creator)</div></Link>
+              <Link to={'/p/stash'}><div className="project-name white">→ Powermove - AI powered home workouts (Creator)</div></Link>
             </div>
             <div className="project-option">
-              <Link to={'/p/stash'}><div className="project-name white">🧠 Stash.ai → AI powered bookmarks (Co-founder)</div></Link>
+              <Link to={'/p/stash'}><div className="project-name white">→ Stash.ai - AI powered bookmarks (Co-founder)</div></Link>
             </div>
             <div className="project-option">
-              <Link to={'/p/pianopass'}><div className="project-name white">🎹 PianoPass → iOS Password Manager (Co-founder)</div></Link>
+              <Link to={'/p/pianopass'}><div className="project-name white">→ PianoPass - iOS Password Manager (Co-founder)</div></Link>
             </div>
           </div>
         </div>
